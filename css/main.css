@@ -1,0 +1,199 @@
+body{
+    background-color: #b1bfbf !important;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #b1bfbf;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(155, 155, 155);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 69, 69);
+}
+
+.ccmb-logo {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.bic-logo {
+    width: 10%;
+    height: 10%;
+}
+.nth-child{
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 6px -6px black;
+}
+  
+.section p{
+    font-size: 1rem;
+    font-family: 'Bree Serif', 'Times New Roman', Times, serif;
+    text-align: justify
+}
+dl, dd{
+    padding-left: 10px;
+}
+.card-body {
+    height: 250px;
+}
+
+.card-image {
+    height: 200px;
+}
+
+img.card-img-top {
+    height: 200px;
+}
+
+p.card-text {
+    word-break: break-all
+}
+
+img.tool-images {
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+img.tool-images:hover {
+    box-shadow: 1px 1px 5px 0px #000000;
+    transition: 0.5s
+}
+
+a img {
+    padding-left: 10px;
+    width: 4rem;
+    height: 4rem;
+}
+
+div.icons {
+    padding-left: 5%;
+    margin: auto;
+}
+
+.twitter-section {
+    max-width: 90%;
+    margin: auto;
+    max-height: 300px;
+    overflow-x: auto;
+}
+
+.footer-icons {
+    font-size: 30px;
+    color: black;
+    padding: 10px
+}
+
+.footer-icons:hover {
+    color: rgb(86, 86, 92);
+}
+
+.icon {
+    padding-top: 20px;
+}
+
+.empty-div {
+    height: 25vh;
+}
+
+/* research html */
+.research_column {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.research_CSE {
+    width: 100%;
+    padding: 5px;
+}
+
+.research_NAGO {
+    height: 400px;
+    width: 100% !important;
+    padding: 10px;
+}
+
+.research_SSR {
+    margin-left: 16%;
+    width: 70%;
+    height: 50% !important;
+}
+
+.research_denovo {
+    width: 100%;
+    padding: 5px;
+}
+
+/* tool html */
+.tool_cdbest {
+    width: 100%;
+    padding: 5px;
+}
+
+.tool_Cstate {
+    width: 100%;
+    padding: 5px;
+    height: 60vh;
+}
+
+/* team html */
+.team-mobile{
+    margin-bottom: 3rem;
+}
+.team_member {
+    display: block;
+    margin: auto;
+    width: 95%;
+    border-radius: 50%;
+}
+
+.team_member:hover {
+    box-shadow: 1px 1px 5px 0px #000000;
+    transition: 0.5s
+}
+
+.icons {
+    font-size: 18px;
+    color: #000000;
+}
+
+.email:hover {
+    color: rgb(133, 62, 62);
+}
+
+.social-linkedin:hover {
+    color: rgb(57, 136, 226);
+}
+
+.social-twitter:hover {
+    color: rgb(52, 190, 184);
+}
+
+.carousel{
+    width: 70%;
+    margin: auto;
+    }
+.d-block{
+    height: 500px !important;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #000000;
+}
+@media(max-width:767px){
+    .image-text-mobile{
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 2.25em;
+    }
+    .team-mobile{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;   
+        padding: 0px; 
+    }
+}
