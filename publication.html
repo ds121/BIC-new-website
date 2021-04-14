@@ -10,8 +10,10 @@
         <script type="text/javascript" src="./js/main.js"></script>
         <link href="./css/main.css" rel="stylesheet" />
         <!--     Fonts and icons     -->
-        <link rel="stylesheet" type="text/css"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/1fe5682f52.js" crossorigin="anonymous"></script>
         <!-- Material Kit CSS -->
@@ -66,18 +68,23 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./team.html" class="nav-link">
-                            TEAM
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="./publication.html" class="nav-link">
                             PUBLICATIONS
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a href="./team.html" class="nav-link">
+                            TEAM
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="./join.html" class="nav-link">
                             JOIN US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link" target="_blank">
+                            BLOG
                         </a>
                     </li>
                 </ul>
@@ -93,32 +100,69 @@
         <div class="container ">
             <div class="section">
                 <h1 class="text-center mb-5">Publications</h1>
-                <!-- <hr style="width: 70%; text-align: center"> -->
-                <!-- <div class="row">
-                    <div class="col-md-12 text-default">
-                        <h3>Preprints</h3>
-                    </div>
-                    <div class="col-md-12 ml-4">
-                        <p class="text-danger mb-0">Long-read genome sequence and assembly of Leptopilina boulardi: a
-                            specialist Drosophila parasitoid</p>
-                        <p class="mb-0">Shagufta Khan, Divya Tej Sowpati, Rakesh K Mishra</p>
-                        <p><strong><em>BioRxiv</em></strong> , doi: <a
-                                href="https://www.g3journal.org/content/10/5/1485" target="_blank">10.1101/284679</a>
-                        </p>
-                    </div>
-                </div> -->
-
                 <div class="row">
                     <div class="col-md-12 text-default">
                         <h3>Peer-reviewed publications</h3>
                     </div>
+                    <div id="c3g-regulates"></div>
+                    <div class="col-md-12">
+                        <h4 class="text-danger">2021</h4>
+                    </div>
+                    <div class="col-md-12 ml-4">
+                        <p class="text-danger mb-0">C3G Regulates STAT3, ERK, Adhesion Signaling, and Is Essential for
+                            Differentiation of Embryonic Stem Cells</p>
+                        <div id="sars-cov2"></div>
+                        <p class="mb-0">Vijay V. Vishnu, Bh. Muralikrishna, Archana Verma, Sanjeev Chavan Nayak, Divya
+                            Tej Sowpati, Vegesna Radha, P. Chandra Shekar
+                        </p>
+                        <p class="mb-0"><strong><em>Stem Cell Rev and Rep</em></strong>, Feb 23 2021</p>
+                        <p>doi: <a href="https://link.springer.com/article/10.1007/s12015-021-10136-8"
+                                target="_blank">10.1007/s12015-021-10136-8
+                            </a></p>
+                    </div>
+                    <div class="col-md-12 ml-4">
+                        <p class="text-danger mb-0">SARS-CoV-2 genomics: An Indian perspective on sequencing viral
+                            variants</p>
+                        <div id="drosophila"></div>
+                        <p class="mb-0">Surabhi Srivastava, Sofia Banu, Priya Singh, Divya Tej Sowpati, Rakesh K. Mishra
+                        </p>
+                        <p class="mb-0"><strong><em>J Biosci</em></strong>, Feb 20 2021</p>
+                        <p>doi: <a href="https://link.springer.com/article/10.1007/s12038-021-00145-7"
+                                target="_blank">10.1007/s12038-021-00145-7
+                            </a></p>
+                    </div>
+                    <div class="col-md-12 ml-4">
+                        <p class="text-danger mb-0">Drosophila Hox genes induce melanized pseudo-tumors when
+                            misexpressed in hemocytes</p>
+                        <div id="evidence"></div>
+                        <p class="mb-0">Titus Ponarathnam, Ravina Saini, Sofia Banu, Rakesh K. Mishra</p>
+                        <p class="mb-0"><strong><em>scientific reports</em></strong>, Jan 19 2021</p>
+                        <p>doi: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7815749/"
+                                target="_blank">10.1038/s41598-021-81472-5
+                            </a></p>
+                    </div>
+                    <div class="col-md-12 ml-4">
+                        <p class="text-danger mb-0">Evidence of Severe Acute Respiratory Syndrome Coronavirus 2
+                            (SARS-CoV-2) Reinfection Without Mutations in the Spike Protein</p>
+                        <p class="mb-0">Onkar Kulkarni, Suneetha Narreddy, Lamuk Zaveri, Irawathy Goud Kalal, Karthik
+                            Bharadwaj Tallapaka, Divya Tej Sowpati</p>
+                        <div id="transcriptomic-dataset"></div>
+                        <p class="mb-0"><strong><em>Clinical Infectious Diseases</em></strong>, Feb 16 2021</p>
+                        <p>doi: <a href="https://academic.oup.com/cid/advance-article/doi/10.1093/cid/ciab136/6137553"
+                                target="_blank">https://doi.org/10.1093/cid/ciab136
+                            </a></p>
+                    </div>
+
+
+
                     <div class="col-md-12">
                         <h4 class="text-danger">2020</h4>
                     </div>
                     <div class="col-md-12 ml-4">
                         <p class="text-danger mb-0">Transcriptomic dataset of zebrafish tissues following chronic
                             alcohol exposure and withdrawal</p>
-                        <p class="mb-0">Sofia Banu, Surabhi Srivastava, Arif Mohammed, Gopal Kushawah, Divya Tej Sowpati,
+                        <p class="mb-0">Sofia Banu, Surabhi Srivastava, Arif Mohammed, Gopal Kushawah, Divya Tej
+                            Sowpati,
                             Rakesh K.Mishra</p>
                         <p class="mb-0"><strong><em>Elsevier</em></strong>, Oct 21 2020</p>
                         <p>doi: <a href="https://doi.org/10.1016/j.dib.2020.106442"
@@ -128,7 +172,8 @@
                     <div class="col-md-12 ml-4">
                         <p class="text-danger mb-0">Tissue-specific transcriptome recovery on withdrawal from chronic
                             alcohol exposure in zebrafish</p>
-                        <p class="mb-0">Sofia Banu, Surabhi Srivastava, Arif Mohammed, Gopal Kushawah, Divya Tej Sowpati,
+                        <p class="mb-0">Sofia Banu, Surabhi Srivastava, Arif Mohammed, Gopal Kushawah, Divya Tej
+                            Sowpati,
                             Rakesh K.Mishra</p>
                         <p class="mb-0"><strong><em>Elsevier</em></strong>, Oct 08 2020</p>
                         <p>doi: <a href="https://doi.org/10.1016/j.alcohol.2020.10.001"
@@ -167,7 +212,7 @@
                             </a></p>
                     </div>
                     <div class="col-md-12 ml-4">
-                        <p class="text-danger mb-0">Sperm methylome alterations following yoga‐based lifestyle
+                        <p class="text-danger mb-0">Sperm methylome alterations following yoga&#45;based lifestyle
                             intervention in patients of primary male infertility: A pilot study</p>
                         <p class="mb-0">Shilpa Bisht, Sofia Banu, Surabhi Srivastava, Rashmi U. Pathak, Rajeev Kumar,
                             Rima Dada, Rakesh K. Mishra</p>
@@ -189,8 +234,8 @@
                         </p>
                         <p class="mb-0">Surabhi Srivastava, Akshay Kumar Avvaru, Divya Tej Sowpati, Rakesh K Mishra</p>
                         <p class="mb-0"><strong><em>BMC Genomics</em></strong>, Feb 22 2019</p>
-                        <p>doi: <a href="https://www.sciencedirect.com/science/article/pii/S0888754317301842?via%3Dihub"
-                                target="_blank">10.1016/j.ygeno.2018.02.001 </a></p>
+                        <p>doi: <a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5516-5"
+                                target="_blank">10.1186/s12864-019-5516-5 </a></p>
                     </div>
                     <div class="col-md-12">
                         <h4 class="text-danger">2018</h4>
@@ -342,11 +387,11 @@
                                     CSIR-CCMB
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/home.html">
                                     Lab of Rakesh Mishra
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -367,7 +412,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>,
-                        <a href="#">CCMB Genomic Research Integrated Data sciences</a>
+                        <a href="./index.html">CCMB Genome Research and Integrated Data sciences</a>
                     </div>
                 </div>
             </div>

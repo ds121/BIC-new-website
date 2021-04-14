@@ -10,8 +10,10 @@
         <script type="text/javascript" src="./js/main.js"></script>
         <link href="./css/main.css" rel="stylesheet" />
         <!--     Fonts and icons     -->
-        <link rel="stylesheet" type="text/css"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/1fe5682f52.js" crossorigin="anonymous"></script>
         <!-- Material Kit CSS -->
@@ -60,18 +62,23 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./team.html" class="nav-link">
-                            TEAM
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="./publication.html" class="nav-link">
                             PUBLICATIONS
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a href="./team.html" class="nav-link">
+                            TEAM
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="./join.html" class="nav-link">
                             JOIN US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link" target="_blank">
+                            BLOG
                         </a>
                     </li>
                 </ul>
@@ -85,111 +92,156 @@
 
     <div class="main main-raised main-body">
         <div class="container ">
-            <div class="section">
-                <p class="text-justify"><strong> A large number of projects in the our lab are focused on dissecting the
-                        mechanisms of epigenetic regulation using Next Generation Sequencing (NGS) technologies. The
-                        team at BIC employs computational and bioinformatics-based approaches to perform the large-scale
-                        data analysis that these projects entail. NGS project management including technical and
-                        experimental design of the projects, quality control checks, and data management and tracking
-                        are provided for a seamless end-to-end service. We also aim to provide bench biologists better
-                        access to computational solutions by developing user friendly and interactive tools and
-                        databases for data visualization and analysis </strong></p>
+            <div class="section mt-0">
+                <h1 class="text-center " id="CSE">Research Interests</h1>
             </div>
-
-            <h1 class="text-center mb-5" id="CSE" >Key Research Interest</h1>
             <!-- <hr style="border: 1px solid #7b1fa2"> -->
             <div class="row">
+                <div class="col-md-12 key-research-title">
+                    <h4 style="font-weight: 400">Genome organization and regulation</h4>
+                </div>
                 <div class="col-md-12">
-                    <h6 >Chromatin State and Epigenomics</h6>
+                    <h6>a.) Epigenetics and genomics</h6>
                 </div>
                 <div class="col-md-6">
                     <div class="research_column">
                         <img class="research_CSE" src="./images/research_CSE.jpg" alt="Chromatin State and Epigenomics">
                     </div>
                 </div>
+
                 <div class="col-md-6">
-                    <p class="text-justify p-2">Accessibility of chromatin in different cell types plays a crucial role
-                        in
-                        controlling the
-                        functional outcome of the DNA sequence via epigenetic marks. These include posttranslational
-                        modifications of histones, DNA methylation and association with chromatin modulator proteins. We
-                        employ ChIP-seq, RNA-seq and bisulphite sequencing techniques to investigate genome-wide changes
-                        during physiological processes such as aging, stress response, transgenerational inheritance and
-                        development and differentiation. We also perform meta-analyses using existing datasets of
-                        various genomes from public repositories.</p>
-                </div>
-            </div>
-            <section id="NAGO"></section>
-            <br><br>
-            <hr>
-            <div class="row">
-                <div class="col-md-12">
-                    <h6>Nuclear Architecture and Genome Organization</h6>
-                </div>
-                <div class="col-md-6">
-                    <div class="research_column">
-                        <img class="research_NAGO" src="./images/research_NAGO.jpg"
-                            alt="Nuclear Architecture and Genome Organization">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p class="text-justify p-2">Chromatin in the eukaryotic nucleus is organized in the form of loops
-                        and
-                        domains which are anchored to the Nuclear Matrix (NuMat) via DNA elements known as Matrix
-                        Associated Regions (MARs). The NuMat additionally contains RNA and proteins to provide a
-                        structural and functional backbone for the nuclear processes. We investigate the identity and
-                        developmental dynamics of NuMat components via MAR and NuMat RNA sequencing to understand the
-                        functional organization of the nucleus during mitosis, development and disease.</p>
+                    <p class="text-justify p-2">The process of epigenetic inheritance includes DNA methylation, post
+                        translational modification of histones and chromatin organization and plays an important role in
+                        controlling the functional outcomes of DNA sequences. Using diverse sequencing platforms such as
+                        ChiP-Seq, RNA-Seq, Bisulfite Sequencing on the Illumina Nova-seq, ONT (Oxford Nanopore
+                        Technology) we investigate the modifications on DNA and RNA bases, and DNA encoded regulatory
+                        mechanisms. We also harness the power of the large numbers of existing datasets in public
+                        repositories to perform meta-analyses and develop new hypothesis on how the genome is regulated.
+                    </p>
+                    <p><a href="#">Project 1</a> &nbsp; <a href="#">Project 2</a></p>
                 </div>
             </div>
             <section id="SSR"></section>
             <br><br>
             <hr>
+
             <div class="row">
                 <div class="col-md-12">
-                    <h6>Simple Sequence Repeats</h6>
+                    <h6>b) Simple Sequence Repeats</h6>
                 </div>
+                <div class="col-md-6">
+                    <p class="text-justify p-2">Microsatellites play an important, and as yet unexplored, role in genome
+                        regulatory functions. Changes in repeat number and composition in coding regions are associated
+                        with many disorders in humans but their role in genome organization is not well understood. Our
+                        goal is to understand how microsatellites are conserved and their contribution to the evolution
+                        of species complexity.
+                    </p>
+                    <p><a href="#">Project 1</a> &nbsp; <a href="#">Project 2</a>&nbsp; <a href="#">Project 3</a></p>
+                </div>
+                
                 <div class="col-md-6">
                     <div class="research_column">
-                        <img class="research_SSR" src="./images/research_SSR.jpg" alt="Simple Sequence Repeats">
+                        <img class="research_SSR" src="./images/research_SSR.jpg" alt="Chromatin State and Epigenomics">
                     </div>
                 </div>
+            </div>
+            <section id="population_Genetics"></section>
+            <br><br>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12 key-research-title">
+                    <h5 style="font-weight: 400">Population Genetics</h5>
+                </div>
+
                 <div class="col-md-6">
-                    <p class="text-justify p-2">Microsatellites, or Simple Sequence Repeats (SSRs), are conserved repeat
-                        elements distributed non-randomly in all genomes. Contrary to earlier beliefs of their
-                        propagation in genomes as “junk DNA”, they have been shown to perform functional roles in gene
-                        regulation and we believe that they are critical elements in evolution and speciation. We have
-                        recently generated an exhaustive collection of >650 million SSRs from ~7000 genomes that can be
-                        explored using our interactive database (MSDB). We are currently involved in investigating their
-                        role in genome organization as well as dissecting their evolutionary trends to reconstruct
-                        phylogenetic relationships.</p>
+                    <div class="research_column">
+                        <img class="research_CSE" src="./images/populationGen.jpeg"
+                            alt="Chromatin State and Epigenomics">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="text-justify p-2">India has a large population diversity and a huge untapped potential to
+                        understand the genetic basis of health and disease. Our team aims to help generate, manage and
+                        analyze quality datasets of population specific genetic samples. We will explore genome
+                        diversity to assess the genetic variance in Indian populations and identify the genetic basis
+                        for population specific phenotypic expression and disease-associated alleles using Whole Genome
+                        Sequencing, Whole Exome Sequencing and SNP indel based studies.
+                    </p>
+                    <p><a href="#">Project 1</a> &nbsp; <a href="#">Project 2</a> &nbsp; <a href="#">Project 3</a> &nbsp; <a href="#">Project 4</a></p>
                 </div>
             </div>
+
             <section id="denovo"></section>
             <br><br>
             <hr>
             <div class="row">
                 <div class="col-md-12">
-                    <h6>De novo genome sequencing</h6>
+                    <h5 style="font-weight: 400">De novo genome assembly</h5>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-justify p-2">Genome information is crucial for understanding conserved gene
+                        regulatory mechanisms and aspects of body design. GRIDS is invested in reconstructing genomes of
+                        useful flora and fauna to generate reference genomes using super scaffolding, genome annotation,
+                        homology based and gene prediction methods. </p>
+                        <p><a href="#">Project 1</a> &nbsp; <a href="#">Project 2</a></p>
                 </div>
                 <div class="col-md-6">
                     <div class="research_column">
                         <img class="research_denovo" src="./images/research_denovo.png" alt="De novo genome sequencing">
                     </div>
                 </div>
+            </div>
+            <section id="tool-development"></section>
+            <br><br>
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12 key-research-title">
+                    <h5 style="font-weight: 400">Tools and Database Development</h5>
+                </div>
+
                 <div class="col-md-6">
-                    <p class="text-justify p-2">Genome information is crucial to understanding conserved gene regulatory
-                        mechanisms and aspects of body design, especially regulation of the homeotic genes for
-                        development of the anterior-posterior axis. We are invested in generating the genome and
-                        transcriptome resources of species that are of interest in our lab. We have recently sequenced
-                        and assembled the genome of the parasitic wasp, Leptopilina boulardi, using a combination of
-                        Illumina and PacBio sequencing.</p>
+                    <div class="research_column">
+                        <img class="research_CSE" src="./images/research_toos_development.jpg"
+                            alt="Chromatin State and Epigenomics">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="text-justify p-2">Technological advances have led to the generation of unprecedented
+                        amounts of biological data from high-through experiments in the last couple of decades which is
+                        not easy to access, manage or analyse manually. We work towards solving these problems via
+                        computational methods (using C++, Python and R) and develop user friendly and interactive
+                        databases for biologists. We also explore new ways to visualize complex data and create novel
+                        GUI-based tools for enabling biological data analysis.
+                    </p>
+                    <p><a href="#">Project 1</a> &nbsp; <a href="#">Project 2</a> &nbsp; <a href="#">Project 3</a></p>
                 </div>
             </div>
-
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center title" style="font-weight: 400">
+                        Institutional Projects
+                    </h2>
+                </div>
+                <div class="col-md-12">
+                    <p class="text-justify p-2">A large number of projects at the CCMB are focused on dissecting the mechanisms of epigenetic
+                        regulation using Next Generation Sequencing (NGS) technologies. The team at GRIDS employs
+                        computational and bioinformatics-based approaches to perform the large-scale data analysis that
+                        these projects entail. NGS project management including technical and experimental design of the
+                        projects, quality control checks, and data management and tracking are provided for a seamless
+                        end-to-end service. We also aim to provide bench biologists better access to computational
+                        solutions by developing user friendly and interactive tools and databases for data visualization
+                        and analysis.</p>
+                </div>
+            </div>
         </div>
         <br><br><br>
-
     </div>
     </div>
     <footer class="footer footer-default">
@@ -203,11 +255,11 @@
                                     CSIR-CCMB
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/home.html">
                                     Lab of Rakesh Mishra
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -228,7 +280,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>,
-                        <a href="#">CCMB Genomic Research Integrated Data sciences</a>
+                        <a href="./index.html">CCMB Genome Research and Integrated Data sciences</a>
                     </div>
                 </div>
             </div>

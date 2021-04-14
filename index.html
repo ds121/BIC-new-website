@@ -10,8 +10,9 @@
     <script type="text/javascript" src="./js/main.js"></script>
     <link href="./css/main.css" rel="stylesheet" />
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/1fe5682f52.js" crossorigin="anonymous"></script>
     <!-- Material Kit CSS -->
@@ -25,13 +26,15 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="./material-kit-master/assets/js/material-kit.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <style>
     </style>
-  </head>
+</head>
 
 <body>
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="50">
     <div class="container">
+      <!-- menu bar section -->
       <div class="navbar-translate">
         <a class="navbar-brand" href="https://www.ccmb.res.in/"><img class="ccmb-logo mb-5" src="./images/CCMB-logo.png"
             alt="CCMB-LOGO"> </a>
@@ -61,13 +64,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="./team.html" class="nav-link">
-              TEAM
+            <a href="./publication.html" class="nav-link">
+              PUBLICATIONS
             </a>
           </li>
           <li class="nav-item">
-            <a href="./publication.html" class="nav-link">
-              PUBLICATIONS
+            <a href="./team.html" class="nav-link">
+              TEAM
             </a>
           </li>
           <li class="nav-item">
@@ -75,261 +78,259 @@
               JOIN US
             </a>
           </li>
+          <li class="nav-item">
+            <a href="./blog.html" class="nav-link" target="_blank">
+              BLOG
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('./images/My Post.png')">
-    <div class="container">
+  <div class="page-header header-filter" data-parallax="true"
+    style="background-image: url('./images/banner_main2.jpg'); opacity: 0.6;">
+    <div class="container"
+      style="background-color: rgba(230, 230, 230, 0.8); padding: 10px 30px; border-radius: 3px; font-family: 'Montserrat', sans-serif;">
       <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
+        <div class="col-md-10 ml-auto mr-auto">
           <div class="brand text-center">
-            <img class="bic-logo" src="./images/GRID_official_logo.png" height="100" width="250" alt="BIC-LOGO">
-            <h1>Genomic Research Integrated Data sciences, CCMB</h1>
+            <!-- <img class="bic-logo" src="./images/GRID_official_logo.png" alt="BIC-LOGO"> -->
+            <h3 style="font-weight: bold; font-family: 'Montserrat', sans-serif; color:black;">Genome Research and
+              Integrated Data sciences, CCMB</h3>
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-justify">
+            <p
+              style="font-size: 1.2rem; font-weight: 500;  font-family: 'Montserrat', sans-serif; line-height: 1.5; margin-top: 1vh; color: black;">
+              The GRIDS facility has evolved from the
+              genomics
+              and bioinformatics groups at CCMB. We
+              use computational approaches to tackle aspects of basic and applied biology.Our current focus is on Next
+              Generation Sequencing (NGS) projects including alignment and assembly of DNA/RNA-Sequencing datasets,
+              denovo genome assembly, and whole genome and exome sequencing. We also develop databases and
+              create computational solutions for biologists, providing a user-friendly interface and interactive tools
+              for data visualization and analysis.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
   <div class="main main-raised">
-    <div class="nth-child" style="border-top-left-radius: 5px; border-top-right-radius: 5px;"> 
-      <div class="container">
-        <div class="section">
-          <h2 class="title text-center">About US</h2>
-          <p><strong> Our lab is currently involved in genomics and transcriptomics project which are
-              majorly engage with computational and bioinformatics based approach for analysis of DNA and RNA sequencing
-              which includes various software for aligning and assembly the RNA-Seq data, denovo genome assembly, whole
-              genome sequencing, whole exome sequencing for analysis. We are working with biologists to address the
-              arising problem using computational methods and our aim is to provide computational solutions to biologists
-              by developing a user-friendly interface and database for data visualization and analysis.
-            </strong></p>
-          <p>Research areas in which our lab is actively involved:</p>
-          <dl>
-            <dt lang="en-US">Epigenetics and genomics</dt>
-            <dd>
-              <p>Process of epigenetic inheritance includes DNA methylation, post translational modification of histone
-                and
-                chromatin organization plays an important role in controlling the functional outcomes in DNA sequences. We
-                engage with ONT (Oxford Nanopore Technology), ChiP-Seq, RNA-Seq, Bisulfite Sequencing to investigate the
-                DNA, RNA base modification and DNA encoded regulatory mechanism along with this we also perform
-                meta-analyses using existing datasets of various genomes from public repositories.</p>
-            </dd>
-            <dt>Population Genetics</dt>
-            <dd>
-              <p>Our aim is to assess, managing and analyzing the quality datasets of population specific genetic samples.
-                We explore the diversity of genomes in humans in order to find the gene which is responsible for
-                population
-                specific population specific phenotypic expression, disease phenotypic expression, and genetic variance in
-                population specific in india using Whole Genome Sequencing, Whole Exome Sequencing and SNP indel based
-                studies.</p>
-            </dd>
-            <dt>Denovo Genome assembly</dt>
-            <dd>
-              <p>Genome Information is crucial to understand conserved gene regulatory mechanisms and aspects of body
-                design. So our lab is invested to reconstruct genomes to achieve a reference genome for a specific species
-                using super scaffolding, genome annotation, homology based and gene prediction method. </p>
-            </dd>
-            <dt>Simple Sequence Repeats</dt>
-            <dd>
-              <p>Microsatellites play an important role in regulatory functions and presence in the coding regions cause
-                neurodegenerative disorders in humans and other possible roles in genome organization. Our goal is to
-                understand how microsatellites are conserving to itself since evolution, emerging roles in genome
-                organization and gene regulation in brief context.</p>
-            </dd>
-            <dt>Tools and Database Development</dt>
-            <dd>
-              <p>In today’s era huge amounts of biological data is generated by high-through experiments and computational
-                analysis which is not so easy to access and manage manually. We engage to solve these problems using
-                computational methods with different algorithms (using C++, Python and R) and developing a database with a
-                user friendly interface for data visualization and analysis. </p>
-            </dd>
-          </dl>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-        <div class="section text-center">
-          <h2 class="title">Research</h2>
-        </div>
-      <div class="row mb-5">
-        <div class="col-md-4">
-          <div class="card" style="width: 100%;">
-            <div class="card-image">
-              <img class="card-img-top" src="./images/carousel_panH3.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <p class="title card-text m-0">Chromatin State and Epigenetics</p>
-              <p class="card-text">ChIP Sequencing</p>
-              <p class="card-text">RNS Sequencing</p>
-              <p class="card-text">Bisulphite Sequencing</p>
-              <p class="card-text">Meta-analysis of public datasets</p>
-              <p class="card-text m-1"><a href="research.html#CSE">Click to read more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 100%;">
-            <div class="card-image">
-              <img class="card-img-top" src="./images/carousel_chromInterArcs.jpg"
-                alt="Nuclear Architecture and Genome organization">
-            </div>
-            <div class="card-body" style="overflow: auto">
-              <p class="title card-text m-0">Nuclear Architecture and Genome organization</p>
-              <p class="card-text">Characterization of Matrix Attachment Region</p>
-              <p class="card-text">Carbon-Copy Chromosome Conformation Capture (5C)</p>
-              <p class="card-text">Genome-wide nucleosome organization</p>
-              <p class="card-text m-1"><a href="research.html#NAGO">Click to read more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 100%;">
-            <div class="card-image">
-              <img class="card-img-top" src="./images/carousel_SSR.jpg" alt="Simple Sequence Repeats (SSRs)">
-            </div>
-            <div class="card-body" style="overflow: auto;">
-              <p class="title card-text m-0">Simple Sequence Repeats (SSRs)</p>
-              <p class="card-text">Identifications of SSRs from Genome Repeats</p>
-              <p class="card-text">Comparative analysis of SSRs across evolution</p>
-              <p class="card-text">Genomic characterization of SSRs</p>
-              <p class="card-text m-1"><a href="research.html#SSR">Click to read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tools Section -->
-    <div class="nth-child">
+    <!-- <div class="nth-child" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
       <div class="container">
         <div class="section text-center">
-          <h2 class="title">Tools and Databases</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <h6 class="title mb-0">cdBEST - Chromatin Domain Boundary Element Search Tool</h6>
-              <a href="tools.html#cdbest">
-                <img class="tool-images " src="./images/tools_cdbest.jpg"
-                  alt="cdBEST - Chromatin Domain Boundary Element Search Tool">
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h6 class="title mb-0">C-State - 'C' the Chromatin State</h6>
-              <a href="tools.html#cstate">
-                <img class="tool-images raised" src="./images/tools_cstate.png" alt="C-State - 'C' the Chromatin Statel">
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <h6 class="title mb-0">GET - Genomes Exploration Tool</h6>
-              <a href="tools.html#get">
-                <img class="tool-images " src="./images/tools_get.png" alt="GET - Genomes Exploration Tool">
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h6 class="title mb-0">MSDB - A comprehensive database of microsatellites</h6>
-              <a href="tools.html#msdb">
-                <img class="tool-images raised" src="./images/index_microsatellites.png"
-                  alt="MSDB - A comprehensive database of microsatellites">
-              </a>
-            </div>
-          </div>
+          <h2 class="title"><a href="./research.html">Research</a></h2>
         </div>
-      </div>
-    </div>
-
-    <!-- What we use -->
-    <div class="container">
-      <div class="row mt-5 mb-5">
-        <div class="col-md-6">
-          <div class=" text-center">
-            <h2 class="title mb-0">What we use</h2>
-            <hr>
-          </div>
-          <div class="row mb-3">
-            <div class="icons">
-              <a href="https://python.org/" data-toggle="tooltip" title="Python" target="_blank">
-                <img src="./images/python.svg" alt="Python">
-              </a>
-              <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript" data-toggle="tooltip" title="JavaScript"
-                target="_blank">
-                <img src="./images/JS.svg" alt="javascript">
-              </a>
-              <a href="https://www.r-project.org/" data-toggle="tooltip" title="R" target="_blank">
-                <img src="./images/r-project.svg" alt="R">
-              </a>
-              <a href="https://www.gnu.org/software/bash/" data-toggle="tooltip" title="Bash" target="_blank">
-                <img src="./images/bash.svg" alt="bash">
-              </a>
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <div class="card-image">
+                <img class="card-img-top" src="./images/carousel_panH3.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <p class="title card-text m-0">Epigenetic and Genomics</p>
+                <p class="card-text">ChIP Sequencing</p>
+                <p class="card-text">RNS Sequencing</p>
+                <p class="card-text">Bisulphite Sequencing</p>
+                <p class="card-text">Meta-analysis of public datasets</p>
+                <p class="card-text m-1"><a href="research.html#CSE">Click to read more</a></p>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="icons">
-              <a href="javascript:;" data-toggle="tooltip" title="HTML5">
-                <img src="./images/html5.svg" alt="html5">
-              </a>
-              <a href="javascript:;" data-toggle="tooltip" title="D3">
-                <img src="./images/d3.svg" alt="D3">
-              </a>
-
-              <a href="javascript:;" data-toggle="tooltip" title="Vuejs">
-                <img src="./images/vuejs.svg" alt="vuejs">
-              </a>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <div class="card-image">
+                <img class="card-img-top" src="./images/carousel_chromInterArcs.jpg"
+                  alt="Nuclear Architecture and Genome organization">
+              </div>
+              <div class="card-body" style="overflow: auto">
+                <p class="title card-text m-0">Population Genetics</p>
+                <p class="card-text">Whole Genome Sequencing</p>
+                <p class="card-text">Whole Exome Sequencing</p>
+                <p class="card-text">SNP indel based studies</p>
+                <p class="card-text m-1"><a href="research.html#population_Genetics">Click to read more</a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- <div class="col-md-2">
-          <div class="padding-left">
-            <div class="vertical-line"></div>
-          </div>
-        </div> -->
-
-        <div class="col-md-6">
-          <div class=" text-center">
-            <h2 class="title mb-0">What we talk</h2>
-            <hr>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="twitter-section">
-                <a class="twitter-timeline" href="https://twitter.com/bic_ccmb?ref_src=twsrc%5Etfw">Tweets by
-                  bic_ccmb</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <div class="card-image">
+                <img class="card-img-top" src="./images/carousel_SSR.jpg" alt="Simple Sequence Repeats (SSRs)">
+              </div>
+              <div class="card-body" style="overflow: auto;">
+                <p class="title card-text m-0">Simple Sequence Repeats (SSRs)</p>
+                <p class="card-text">Identifications of SSRs from Genome Repeats</p>
+                <p class="card-text">Comparative analysis of SSRs across evolution</p>
+                <p class="card-text">Genomic characterization of SSRs</p>
+                <p class="card-text m-1"><a href="research.html#SSR">Click to read more</a></p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <br>
+    </div> -->
+
+    <!-- Research Section -->
+    <div class="nth-child" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+      <div class="container">
+        <div class="section text-center">
+          <h2 class="title"><a href="./research.html">Research</a></h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h6 class="title mb-0">Epigenetics and Genomics</h6>
+              <a href="research.html#CSE">
+                <img class="tool-images " src="./images/carousel_panH3.jpg" alt="Epigenetic and genome">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <h6 class="title mb-0">Population Genetics</h6>
+              <a href="research.html#population_Genetics">
+                <img class="tool-images raised" src="./images/carousel_chromInterArcs.jpg"
+                  alt="Image for Population Genetics">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <h6 class="title mb-0">Simple Sequence Repeats (SSRs)</h6>
+              <a href="research.html#SSR">
+                <img class="tool-images " src="./images/carousel_SSR.jpg" alt="Simple Sequence Repeats (SSRs)">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tools and Databases Section -->
+    <div class="container">
+      <div class="section text-center">
+        <h2 class="title"><a href="./tools.html">Tools and Databases</a></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="title mb-0">cdBEST - Chromatin Domain Boundary Element Search Tool</h6>
+            <a href="tools.html#cdbest">
+              <img class="tool-images " src="./images/tools_cdbest.jpg"
+                alt="cdBEST - Chromatin Domain Boundary Element Search Tool">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h6 class="title mb-0">C-State - 'C' the Chromatin State</h6>
+            <a href="tools.html#cstate">
+              <img class="tool-images raised" src="./images/tools_cstate.png" alt="C-State - 'C' the Chromatin Statel">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="title mb-0">GET - Genomes Exploration Tool</h6>
+            <a href="tools.html#get">
+              <img class="tool-images " src="./images/tools_get.png" alt="GET - Genomes Exploration Tool">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h6 class="title mb-0">MSDB - A comprehensive database of microsatellites</h6>
+            <a href="tools.html#msdb">
+              <img class="tool-images raised" src="./images/index_microsatellites.png"
+                alt="MSDB - A comprehensive database of microsatellites">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nth-child" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px">
+      <!-- What we use -->
+      <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <div class=" text-center">
+              <h2 class="title mb-0"><a href="./publication.html">Recent Publications</a></h2>
+              <hr>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <ul>
+                  <li>
+                    <p><a href="./publication.html#c3g-regulates">C3G Regulates STAT3, ERK, Adhesion Signaling, and Is
+                        Essential for Differentiation of Embryonic Stem Cells</a></p>
+                  </li>
+                  <li>
+                    <p><a href="./publication.html#sars-cov2">SARS-CoV-2 genomics: An Indian perspective on sequencing
+                        viral variants</a></p>
+                  </li>
+                  <li>
+                    <p><a href="./publication.html#drosophila">Drosophila Hox genes induce melanized pseudo-tumors when
+                        misexpressed in hemocytes</a></p>
+                  </li>
+                  <li>
+                    <p><a href="./publication.html#evidence">
+                        Evidence of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Reinfection Without
+                        Mutations in the Spike Protein</a></p>
+                  </li>
+                  <li>
+                    <p><a href="./publication.html#transcriptomic-dataset">Transcriptomic dataset of zebrafish tissues
+                        following chronic
+                        alcohol exposure and withdrawal</a></p>
+                  </li>
+                </ul>
+                <a href="./publication.html" class="btn btn-primary btn-sm btn-round ml-4">See All</a>
+
+              </div>
+
+            </div>
+          </div>
+          <!-- what we talk -->
+          <div class="col-md-6">
+            <div class=" text-center">
+              <h2 class="title mb-0">Latest Tweets</h2>
+              <hr>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="twitter-section">
+                  <a class="twitter-timeline" href="https://twitter.com/bic_ccmb?ref_src=twsrc%5Etfw">Tweets by
+                    bic_ccmb</a>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
     </div>
 
     <!-- Contact Section -->
-    <div class="nth-child" style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px">
-      <div class="container">
-        <div class="section text-center">
-          <h2 class="title">Contact Us</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <iframe width="90%" height="500" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=center for cellular and molecu&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-              </iframe>
-            </div>
-            <div class="col-md-6">
-              <div class="pl-5">
-                <h3 class="title text-left">Address</h1>
-                  <p class="text-left">GRIDs - Genomic Research Integrated Data sciences,</p>
-                  <p class="text-left">E504, East wing, Fourth floor</p>
-                  <p class="text-left">CSIR - Centre for Cellular and Molecular Biology,</p>
-                  <p class="text-left">Uppal Road, Habsiguda,</p>
-                  <p class="text-left">Hyderabad, Telangana - 500007</p>
-              </div>
+    <div class="container">
+      <div class="section text-center">
+        <h2 class="title"><a href="./join.html">Contact Us</a></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <iframe width="90%" height="500" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=center for cellular and molecu&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="pl-5">
+              <h3 class="title text-left">Address</h1>
+                <p class="text-left">GRIDs - Genome Research and Integrated Data sciences,</p>
+                <p class="text-left">E504, East wing, Fourth floor</p>
+                <p class="text-left">CSIR - Centre for Cellular and Molecular Biology,</p>
+                <p class="text-left">Uppal Road, Habsiguda,</p>
+                <p class="text-left">Hyderabad, Telangana - 500007</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-<br><br>
+    <br><br>
 
   </div>
   <footer class="footer footer-default">
@@ -343,11 +344,11 @@
                   CSIR-CCMB
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/home.html">
                   Lab of Rakesh Mishra
                 </a>
-              </li>
+              </li> -->
             </ul>
           </nav>
         </div>
@@ -368,7 +369,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>,
-            <a href="#">CCMB Genomic Research Integrated Data sciences</a>
+            <a href="./index.html">CCMB Genomic Research Integrated Data sciences</a>
           </div>
         </div>
       </div>

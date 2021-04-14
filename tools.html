@@ -10,9 +10,13 @@
         <script type="text/javascript" src="./js/main.js"></script>
         <link href="./css/main.css" rel="stylesheet" />
         <!--     Fonts and icons     -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">        
         <script src="https://kit.fontawesome.com/1fe5682f52.js" crossorigin="anonymous"></script>
         <!-- Material Kit CSS -->
         <link href="./material-kit-master/assets/css/material-kit.css" rel="stylesheet" />
@@ -66,18 +70,23 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./team.html" class="nav-link">
-                            TEAM
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="./publication.html" class="nav-link">
                             PUBLICATIONS
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a href="./team.html" class="nav-link">
+                            TEAM
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="./join.html" class="nav-link">
                             JOIN US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link" target="_blank">
+                            BLOG
                         </a>
                     </li>
                 </ul>
@@ -92,7 +101,7 @@
     <div class="main main-raised main-body">
         <div class="container ">
             <div class="section">
-                <h1 class="text-center mb-5" id="cdbest">Tools</h1>
+                <h1 class="text-center mb-5" id="cdbest">Tools and Databases</h1>
                 <!-- <hr style="width: 70%; text-align: center"> -->
                 <div class="row">
                     <div class="col-md-12">cdBEST - Chromatin Domain Boundary Element Search Tool</div>
@@ -134,12 +143,6 @@
                 <div class="row mt-4">
                     <div class="col-md-12">C-State - 'C' the Chromatin State</div>
                     <div class="col-md-6">
-                        <div class="research_column">
-                            <img class="tool_Cstate" src="./images/tools_cstate.png"
-                                alt="C-State - 'C' the Chromatin State">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
                         <p class="text-justify p-2">Comparative epigenomic analysis across multiple genes presents a
                             bottleneck for bench biologists working with NGS data. Despite the development of
                             standardized peak analysis algorithms, the identification of novel epigenetic patterns and
@@ -160,6 +163,12 @@
                                 href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1786-6">Publication</a>
                             <a class="pl-3" href="https://www.ccmb.res.in/index.php?/rakeshmishra/c-state/">Website</a>
                             <a class="pl-3" href="https://github.com/RKMlab/c-state">Source</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="research_column">
+                            <img class="tool_Cstate" src="./images/tools_cstate.png"
+                                alt="C-State - 'C' the Chromatin State">
                         </div>
                     </div>
                 </div>
@@ -199,12 +208,6 @@
                 <div class="row mt-4">
                     <div class="col-md-12">MSDB - A comprehensive database of microsatellites</div>
                     <div class="col-md-6">
-                        <div class="research_column">
-                            <img class="tool_cdbest" src="./images/tools_microsatellites.png"
-                                alt="MSDB - A comprehensive database of microsatellites">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
                         <p class="text-justify p-2">Microsatellites, also known as Simple Sequence Repeats (SSRs), are
                             short tandem repeats of 1–6 nt motifs present in all genomes, particularly eukaryotes.
                             Besides their usefulness as genome markers, SSRs have been shown to perform important
@@ -219,6 +222,12 @@
                         <div>
                             <a href="https://academic.oup.com/nar/article/48/D1/D155/5584837">Publication</a>
                             <a class="pl-3" href="http://data.ccmb.res.in/msdb/">Website</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="research_column">
+                            <img class="tool_cdbest" src="./images/tools_microsatellites.png"
+                                alt="MSDB - A comprehensive database of microsatellites">
                         </div>
                     </div>
                 </div>
@@ -276,12 +285,6 @@
                 <div class="row mt-4">
                     <div class="col-md-12">GEAR-19 - Genome Evolution Analysis Resource for COVID-19</div>
                     <div class="col-md-6">
-                        <div class="research_column">
-                            <img class="tool_cdbest" src="./images/gear19.png"
-                                alt="Gear19 - Genome Evolution Analysis Resource for COVID-19">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
                         <p class="text-justify p-2">Gear19 database is developed using Node.js framework, vue.js and
                             mongoDB to track the genomic evolution of SARS-CoV-2 virus which is resposible for
                             worldwide pandemic of COVID-19. Gear19 is carrying 3449 indian SARS-CoV-2 sequenced genome
@@ -293,12 +296,20 @@
                             <a class="pl-3" href="http://data.ccmb.res.in/gear19/">Website</a>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="research_column">
+                            <img class="tool_cdbest" src="./images/gear19.png"
+                                alt="Gear19 - Genome Evolution Analysis Resource for COVID-19">
+                        </div>
+                    </div>
                 </div>
                 <br><br>
                 <hr>
                 <h2>Other Tools</h2>
-                <h4><a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/risci-tool.html" target="_blank">RISCI</a></h4>
-                <h4><a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/snsalign-tool.html" target="_blank">Sns-Align</a></h4>
+                <h4><a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/risci-tool.html" target="_blank">RISCI</a>
+                </h4>
+                <h4><a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/snsalign-tool.html"
+                        target="_blank">Sns-Align</a></h4>
 
             </div>
 
@@ -318,11 +329,11 @@
                                     CSIR-CCMB
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="http://e-portal.ccmb.res.in/e-space/rakeshmishra/home.html">
                                     Lab of Rakesh Mishra
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                 </div>
@@ -343,7 +354,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>,
-                        <a href="./index.html">CCMB Genomic Research Integrated Data sciences</a>
+                        <a href="./index.html">CCMB Genome Research and Integrated Data sciences</a>
                     </div>
                 </div>
             </div>
